@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chalé Hotel</title>
+
+<!-- FAVICON -->
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+<!-- Bootstrap 5 CDN Links -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<!-- Custom File's Link -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive-style.css">
+
+
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+    <!-- Navbar section -->
+
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" class="img-fluid" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              <i class="fas fa-stream navbar-toggler-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#rooms">Bedrooms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#price">Price</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                  </li>
+                  <li class="nav-item mt-lg-2 mt-lg-0">
+                    <a class="main-btn" href="#">SCHEDULE NOW</a>
+                  </li>
+                </ul>
+            </div>
+            </div>
+          </nav>
+    </header>
+    <!-- Navbar section exit SCHEDULE NOW -->
+
+    <!-- Banner section -->
+   <section id="home" class="banner_wrapper p-0"> 
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image:url(./images/slider/slider2.jpeg)">
+            <div class="slide-caption text-center">
+              <div>
+                <h1>Welcome to Chalé Hotel</h1>
+                <p>The Chalé Hotel offers much more than just accommodation; It is also a unique experience that encompasses culture and comfort.<br>
+                 The architecture, service and cuisine combine to create one of the most comfortable and hospitable places in the world to stay.
+              </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide" style="background-image:url(./images/slider/slider1.jpeg)">
+            <div class="slide-caption text-center">
+              <div>
+                <h1>Welcome to Chalé Hotel</h1>
+                <p>The Chalé Hotel offers much more than just accommodation; It is also a unique experience that encompasses culture and comfort.<br>
+                  The architecture, service and cuisine combine to create one of the most comfortable and hospitable places in the world to stay.
+                </p>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="container booking-area">
+        <form class="row">
+          <div class="col-lg mb-3 mb-lg-0">
+            <input type="date" class="form-control" placeholder="Date">
+          </div>
+          <div class="col-lg mb-3 mb-lg-0">
+            <input type="date" class="form-control" placeholder="Date">
+          </div>
+          <div class="col-lg mb-3 mb-lg-0">
+            <select class="form-select">
+              <option selected>Adults</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div class="col-lg mb-3 mb-lg-0">
+            <select class="form-select">
+              <option selected>Children</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div class="col-lg mb-3 mb-lg-0">
+            <button type="submit" class="main-btn rounded-2 px-lg-3">Schedule Now</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Banner section exit -->
+  
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+      <div class="container">
+        <div class="row flex-lg-row flex-column-reverse">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h3>Welcome to<span>Chalé Hotel, <br class="d-none d-lg-block">
+              the refuge</span> done for you!</h3>
+            <p>The Chalé hotel chain is among the most luxurious and cozy hotels in Brazil. Well, we offer excellent accommodation for business and leisure travelers.</p>
+            <p>The most famous unit is in Copacabana, a city located in the South Zone of Rio de Janeiro. The hotel has 200 rooms (including 50 PetFriendly rooms) with unique details like vaulted ceilings, exposed beams, and exquisite wallpaper.</p>
+            <p>We have units in: São Paulo - Itaim Bibi; Rio de Janeiro - Copacabana and Belo Horizonte - Ouro Preto</p>
+            <a href="#" class="main-btn mt-4">Check Units</a>    
+          </div>
+          <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+            <img src="images/about-img.png" class="img-fluid" alt="about">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section exit -->
+
+
+    <!-- Rooms section -->
+    <section id="rooms" class="rooms_wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-5">
+            <h6>bedrooms</h6>
+            <h3>Featured Rooms</h3>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-md-4 mb-4 mb-lg-0">
+            <div class="room-items">
+              <img src="./images/room/room1.webp" class="img-fluid">
+              <div class="room-item-wrap">
+                <div class="room-content">
+                  <h5 class="text-white mb-lg-5 text-decoration-underline">Classic Suite</h5>
+                  <p class="text-white">It is a Classic Suite with two single beds. It has several items for the comfort of our audience - such as a bathtub, an area for two closets and even a private fireplace.</p>
+                  <p class="text-white fw-bold mt-lg-4">R$169.90 / Per Night</p>
+                  <a class="main-btn border-white text-white mt-lg-5" href="#">Schedule Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 mb-lg-0">
+            <div class="room-items">
+              <img src="./images/room/room2.webp" class="img-fluid">
+              <div class="room-item-wrap">
+                <div class="room-content">
+                  <h5 class="text-white mb-lg-5 text-decoration-underline">Master Suite</h5>
+                  <p class="text-white">It's the Master Suite. It has several items for the comfort of our audience - such as a bathtub, king-size bed, closet area and even a private fireplace.</p>
+                  <p class="text-white fw-bold mt-lg-4">R$220 / Per Night </p>
+                  <a class="main-btn border-white text-white mt-lg-5" href="#">Schedule Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 mb-lg-0">
+            <div class="room-items">
+              <img src="./images/room/room3.webp"  class="img-fluid"> 
+              <div class="room-item-wrap">
+                <div class="room-content">
+                  <h5 class="text-white mb-lg-5 text-decoration-underline">Pet-Friendly Suite</h5>
+                  <p class="text-white">We know how important your little friend is to you, with this in mind we provide PetFriendly accommodations at our hotel!</p>
+                  <p class="text-white fw-bold mt-lg-4">$200 / Per Night</p>
+                  <a class="main-btn border-white text-white mt-lg-5" href="#">Schedule Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rooms section exit -->
+
+
+    <!-- Services section -->
+    <section id="services" class="services_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-5">
+            <h6>Services</h6>
+            <h3>Our services</h3>
+          </div>
+        </div>
+        <div class="row align-items-center service-item-wrap">
+          <div class="col-lg-7 p-lg-0">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="spa" role="tabpanel">
+                <img src="./images/services/service1.webp">
+              </div>
+              <div class="tab-pane fade" id="restaurent" role="tabpanel">
+                <img src="./images/services/service2.webp">
+              </div>
+              <div class="tab-pane fade" id="swimming" role="tabpanel">
+                <img src="./images/services/service3.webp">
+              </div>
+              <div class="tab-pane fade" id="conference" role="tabpanel">
+                <img src="./images/services/service6.webp">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 position-relative">
+            <div class="service-menu-area">
+              <ul class="nav">
+                <li>
+                  <a data-bs-toggle="tab" href="#spa" class="active">
+                    <span class="service-icon">
+                      <img src="./images/services/service-icon1.webp" alt="">
+                    </span>
+                    <h5>Spa, Beauty and Health</h5>
+                    <p><span>Spa, beauty and health,</span>We have reserved spaces with the aim of providing a relaxing moment for the public.</p>
+                  </a>
+                </li>
+                <li>
+                  <a data-bs-toggle="tab" href="#restaurent">
+                    <span class="service-icon">
+                      <img src="./images/services/service-icon2.webp" alt="">
+                    </span>
+                    <h5>restaurant</h5>
+                    <p><span>Restaurant, </span>serves all types of food. And every night the dinners are themed.</p>
+                  </a>
+                </li>
+                <li>
+                  <a data-bs-toggle="tab" href="#swimming">
+                    <span class="service-icon">
+                      <img src="./images/services/service-icon3.webp" alt="">
+                    </span>
+                    <h5>Pools</h5>
+                    <p><span>Pools, </span> there are 5 different pools in all units. Therefore, our intention is to cover all audiences.</p>
+                  </a>
+                </li>
+                <li>
+                  <a data-bs-toggle="tab" href="#conference">
+                    <span class="service-icon">
+                      <img src="./images/services/service-icon4.webp" alt="">
+                    </span>
+                    <h5>Conference room</h5>
+                    <p><span>Living room,</span> place where the Hotel's main events take place.</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="counter mt-5">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h1>
+                <span id="count1"></span>+
+              </h1>
+              <p>Satisfied Customers</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h1>
+                <span id="count2"></span>+
+              </h1>
+              <p>Posts mentioned</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h1>
+                <span id="count3"></span>+
+              </h1>
+              <p>5 Star Reviews</p>
+            </div>
+            <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+              <h1>
+                <span id="count4"></span>+
+              </h1>
+              <p>Meals Served</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section exit -->
+
+
+    <!-- Team section -->
+    <section id="team" class="team_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-5">
+            <h6>Team</h6>
+            <h3>Our Collaborators</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0 rounded-3">
+              <img src="images/team/team1.webp" class="img-fluid rounded-3">
+              <div class="team-info">
+                <h5>Jorge Almeida</h5>
+                <p>Manager</p>
+                <ul class="social-network">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                  <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0 rounded-3">
+              <img src="images/team/team2.webp" class="img-fluid rounded-3">
+              <div class="team-info">
+                <h5>Mike Santos</h5>
+                <p>Chef Receptionist</p>
+                <ul class="social-network">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                  <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0 rounded-3">
+              <img src="images/team/team3.webp" class="img-fluid rounded-3">
+              <div class="team-info">
+                <h5>Guilherme Prado</h5>
+                <p>Chef Cook</p>
+                <ul class="social-network">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                  <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0 rounded-3">
+              <img src="images/team/team4.webp" class="img-fluid rounded-3">
+              <div class="team-info">
+                <h5>Bruna Vieira</h5>
+                <p>General Services Assistant</p>
+                <ul class="social-network">
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                  <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team section exit -->
+
+
+    <!-- Gallery section -->
+    <section id="gallery" class="gallery_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-5">
+            <h6>Gallery</h6>
+            <h3>The best photos of the Hotel</h3>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-lg-3 col-md-6 gallery-item">
+            <img src="./images/gallery/1.webp" class="img-fluid w-100">
+            <div class="gallery-item-content"></div>
+          </div>
+          <div class="col-lg-3 col-md-6 gallery-item">
+            <img src="./images/gallery/2.webp" class="img-fluid w-100">
+            <div class="gallery-item-content"></div>
+          </div>
+          <div class="col-lg-3 col-md-6 gallery-item">
+            <img src="./images/gallery/3.webp" class="img-fluid w-100">
+            <div class="gallery-item-content"></div>
+          </div>
+          <div class="col-lg-3 col-md-6 gallery-item">
+            <img src="./images/gallery/4.webp" class="img-fluid w-100">
+            <div class="gallery-item-content"></div>
+          </div>
+          <div class="col-md-6 gallery-item">
+            <img src="./images/gallery/5.webp" class="img-fluid w-100">
+            <div class="gallery-item-content"></div>
+          </div>
+          <div class="col-md-6 gallery-item">
+            <img src="./images/gallery/6.webp" class="img-fluid w-100">
+            <div class="gallery-item-content"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery section exit -->
+
+
+    <!-- Pricing section -->
+    <section id="price" class="price_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-5">
+            <h6>Pricing</h6>
+            <h3>The best prices and packages</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-4 text-center rounded-3">
+              <h5 class="text-decoration-underline mb-4">Economic</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <p>Plane tickets (2)</p>
+                </li>
+                <li>
+                  <p>Live shows (30% Off)</p>
+                </li>
+                <li>
+                  <p>Restaurant (All inclusive)</p>
+                </li>
+                <li>
+                  <p>Tours (No)</p>
+                </li>
+              </ul>
+              <hr />
+              <h3>R$890<sub class="fs-6 fw-normal">/2 Nights</sub></h3>
+              <a href="#" class="main-btn">To choose</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-4 text-center rounded-3">
+              <h5 class="text-decoration-underline mb-4">Premium</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <p>Plane tickets (4)</p>
+                </li>
+                <li>
+                  <p>Live shows (All inclusive)</p>
+                </li>
+                <li>
+                  <p>Restaurant (All inclusive)</p>
+                </li>
+                <li>
+                  <p>Tours (All inclusive)</p>
+                </li>
+              </ul>
+              <hr />
+              <h3>R$2900<sub class="fs-6 fw-normal">/4 Nights</sub></h3>
+              <a href="#" class="main-btn">To choose</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-4 text-center rounded-3">
+              <h5 class="text-decoration-underline mb-4">Economical 2 people</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <p>Plane tickets (4)</p>
+                </li>
+                <li>
+                  <p>Live shows (30% Off)</p>
+                </li>
+                <li>
+                  <p>Restaurant (All inclusive)</p>
+                </li>
+                <li>
+                  <p>Tours (No)</p>
+                </li>
+              </ul>
+              <hr />
+              <h3>$1600<sub class="fs-6 fw-normal">/3 Nights</sub></h3>
+              <a href="#" class="main-btn">To choose</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-4 text-center rounded-3">
+              <h5 class="text-decoration-underline mb-4">Family</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <p>Plane tickets (6)</p>
+                </li>
+                <li>
+                  <p>Live shows (All inclusive)</p>
+                </li>
+                <li>
+                  <p>Restaurant (All inclusive)</p>
+                </li>
+                <li>
+                  <p>Tours (All inclusive)</p>
+                </li>
+              </ul>
+              <hr />
+              <h3>R$5000<sub class="fs-6 fw-normal">/5 Nights</sub></h3>
+              <a href="#" class="main-btn">To choose</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing section exit -->
+
+
+    <!-- Blog section -->
+<section id="blog" class="blog_wrapper pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 section-title text-center mb-5">
+        <h6>Blog</h6>
+        <h3>Information and Tips</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mb-4">
+        <div class="card p-0 border-0 rounded-0">
+          <div class="image-wrapper">
+            <img src="images/blog/blog1.jpeg" alt="">
+          </div>
+          <div class="blog-content bg-white p-4">
+            <h5 class="text-decoration-underline mb-4">10 items that cannot be missing from your suitcase!</h5>
+            <h6>Chalé Hotel Tips - Jan 1, 2024</h6>
+            <p class="mt-2">For your trip to go as planned, you must not forget to take...</p>
+            <a href="#" class="main-btn mt-2">Know more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mb-4">
+        <div class="card p-0 border-0 rounded-0">
+          <div class="image-wrapper">
+            <img src="images/blog/blog2.png" height="367" alt="">
+          </div>
+          <div class="blog-content bg-white p-4">
+            <h5 class="text-decoration-underline mb-4">How to plan a trip?</h5>
+            <h6>Chalé Hotel Tips - February 18, 2024</h6>
+            <p class="mt-2">Did you know that you don't have to suffer for not traveling on these holidays? Just plan with these tips...</p>
+            <a href="#" class="main-btn mt-2">Know more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Blog section exit -->
+
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+      <div class="container pb-3">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <h5>Chalé Hotel</h5>
+            <p class="ps-0">Chain of the most luxurious and cozy hotels in Brazil.</p>
+              <div class="contact-info">
+                <ul class="list-unstyled">
+                  <li><a href="#"><i class="fa fa-home me-3"></i> (RJ), (SP) e (BH)</a></li>
+                  <li><a href="#"><i class="fa fa-phone me-3"></i>(xx) xxxx-xxxx</a></li>
+                  <li><a href="#"><i class="fa fa-envelope me-3"></i>chalehotel@hotell.com</a></li>
+                </ul>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>More Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#rooms">bedrooms</a></li>
+              <li><a href="#services">services</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#gallery">Galeria</a></li>
+              <li><a href="#price">Pricing</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>More Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#">To assess</a></li>
+              <li><a href="#">assess</a></li>
+              <li><a href="#">schedule</a></li>
+              <li><a href="#">To assess</a></li>
+              <li><a href="#">To schedule</a></li>
+              <li><a href="#">Hotel</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Newsletter</h5>
+            <div class="form-group mb-4">
+              <input type="email" class="form-control bg-transparent" placeholder="E-mail">
+              <button type="submit" class="main-btn rounded-2 mt-3 border-white text-white">Sign up</button>
+            </div>
+            <h5>Follow us</h5>
+            <ul class="social-network d-flex align-items-center p-0">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+              <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright-section">
+        <p>Copyright <a href="#">©2023 BK pradhan</a></a> All rights reserved</p>
+      </div>
+    </section>
+
+    <!-- Footer section exit-->
+
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom Js Link -->
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
